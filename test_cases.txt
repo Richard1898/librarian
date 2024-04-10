@@ -6,18 +6,18 @@ piem. Zinot ka kurss ir 1.0831, padodot 10 eur, rezultāts būs 10.83 usd
 -----
 
 2 veiksmīgi scenāriji (happy path):
+Zinot ka var meklet pec biblioteka nosaukuma, ievadam biblioteku nosaukumu Making Sense of Java, rezultāts 132632942 - Making Sense of Java by Bruce Simpson, John Mitchell, Brian Christeson, Rehan Zaidi, , Jonathan Levine
+Zinot ka var meklet pec Show 10 longest books, ievadam 2, rezultāts 1. Ten Years of UserFriendly.Org (1096 pages) SQL Server MVP Deep Dives (848 pages)The Awesome Power of Direct3D/DirectX (840 pages)Windows PowerShell in Action, Second Edition (700 pages)Java Development with Ant (672 pages)Seam in Action (624 pages)Ant in Action (600 pages)iText in Action, Second Edition (600 pages)Spring in Practice (600 pages)OSGi in Action (576 pages)
+
+4 izmantošanas scenāriji (use-case):
+Zinot ka var izveleties funkciju bibliotekā meklet pec biblioteka nosaukuma, HER ievadam 1 ievadam biblioteku nosaukumu , rezultāts "No matching books found."
+Zinot ka var izveleties funkciju bibliotekā meklejam pec Show 10 shortest books, ievadam 3, rezultāts 1.Making Sense of Java (180 pages) Object Technology Centers of Excellence (200 pages)Comprehensive Networking Glossary and Acronym Guide (208 pages)Implementing PeopleSoft Financials (220 pages)Practical Methods for Your Year 2000 Problem (236 pages)SOA Patterns (250 pages) Hello! Flex 4 (258 pages)Technology Paradise Lost (260 pages)Flex on Java (265 pages)Client/Server Yellow Pages (280 pages)
+Zinot ka var izveleties funkciju bibliotēka , ievadam 21, rezultāts "Invalid choice. Please enter a number from 1 to 7."
+Zinot ka var izveleties funkciju bibliotekā meklet pec Mark book as free, ievadam 5 ievadam ISBN priekš gramatu Making Sense of Java, rezultāts Book 'Making Sense of Java' marked as free.
 
 
-
-5 izmantošanas scenāriji (use-case):
-
-
-
-
-
-
-5 robežas scenāriji (edge-case):
-
-
-
-
+4 robežas scenāriji (edge-case):
+Zinot ka izveleties funkciju bibliotekā  meklet pec biblioteka nosaukuma, ievadam 1 ievadam biblioteku nosaukumu JSADh213434251@!$@$!, , rezultāts "No matching books found." 
+Zinot ka izveleties funkciju bibliotekā , ievadam ASDASD@$!@$@sd213214  s  rezultāts būs   "Invalid choice. Please enter a number from 1 to 7."
+Zinot ka izveleties funkciju bibliotekā Add new book , ievadam 4 ievadam pagecount nenormālu adsad@#@!  , rezultāts būs kļuda jo tur ir int 
+Zinot ka  izveleties funkciju bibliotekā meklet pec Mark book as free ievadam 5 ievadam  nepareiz (piemēram ADHGSA87273!@@#@!)ISBN priekš gramatu Making Sense of Java , rezultāts"Book with ISBN '{isbn}' not found in the library."

@@ -53,7 +53,8 @@
         "pageCount": 316,
         "authors": "Levi Asher, Christian Crumlish",
         "publishDate": "1997-07-01T00:00:00.000-0700",
-        "description": "Coffeehouse is an anthology of stories, poems and essays originally published on the World Wide Web."
+        "description": "Coffeehouse is an anthology of stories, poems and essays originally published on the World Wide Web.",
+        "taken": false
     },
     {
         "title": "Brownfield Application Development in .NET",
@@ -830,5 +831,14 @@
         "authors": "Rob Crowther, Joe Lennon, Ash Blue, , Greg Wanish",
         "publishDate": "2014-02-10T00:00:00.000-0800",
         "description": "HTML5 In Action provides a complete introduction to web development using HTML5. You'll explore every aspect of the HTML5 specification through real-world examples and code samples. It's much more than just a specification reference, though. It lives up to the name HTML5 in Action by giving you the practical, hands-on guidance you'll need to use key features."
+    },
+    {
+        "title": "SAA",
+        "isbn": "342423",
+        "pageCount": 21,
+        "authors": "Somebody",
+        "publishDate": "2012-12-23",
+        "description": "Sad",
+        "taken": false
     }
 ]
